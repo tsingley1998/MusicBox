@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Box</title>
+    <link rel="stylesheet" href="main.css"></link>
+</head>
+<body>
+    <h1>Music Box</h1>
+    <p>Press the buttons to play a simple song!</p>
+    <div id="boxes">
+        <div id="redBox" class="box" onclick="playA()">
+            <audio id="redAudio">
+                <source src="/media/a_note.mp3">
+                <source src="/media/a_note.ogg">
+                <source src="/media/a_note.wav">
+            </audio>
+        </div>
+        <div id="orangeBox" class="box" onclick="playB()">
+            <audio id="orangeAudio">
+                <source src="/media/b_note.mp3">
+                <source src="/media/b_note.ogg">
+                <source src="/media/b_note.wav">
+            </audio>
+        </div>
+        <div id="yellowBox" class="box" onclick="playC()">
+            <audio id="yellowAudio">
+                <source src="/media/c_note.mp3">
+                <source src="/media/c_note.ogg">
+                <source src="/media/c_note.wav">
+            </audio>
+        </div>
+        <div id="greenBox" class="box" onclick="playD()">
+            <audio id="greenAudio">
+                <source src="/media/d_note.mp3">
+                <source src="/media/d_note.ogg">
+                <source src="/media/d_note.wav">
+            </audio>
+        </div>
+        <div id="blueBox" class="box" onclick="playE()">
+            <audio id="blueAudio">
+                <source src="/media/e_note.mp3">
+                <source src="/media/e_note.ogg">
+                <source src="/media/e_note.wav">
+            </audio>
+        </div>
+        <div id="purpleBox" class="box" onclick="playF()">
+            <audio id="purpleAudio">
+                <source src="/media/f_note.mp3">
+                <source src="/media/f_note.ogg">
+                <source src="/media/f_note.wav">
+            </audio>
+        </div>
+        <div id="pinkBox" class="box" onclick="playG()">
+            <audio id="pinkAudio">
+                <source src="/media/g_note.mp3">
+                <source src="/media/g_note.ogg">
+                <source src="/media/g_note.wav">
+            </audio>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
